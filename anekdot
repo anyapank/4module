@@ -1,12 +1,11 @@
 function generate() {
     var jokes = [
-        '<img src="joke1.png">',
-        '<img src="joke2.png">',
-        '<img src="joke3.png">',
-        '<img src="joke4.png">',
+        '<img src="qqq.png">',
+        '<img src="images/2.jpeg">',
+        '<img src="images/3.jpeg">',
         ]
 
-        var lol=document.querySelector(".div-img");
+        var lol=document.querySelector(".div1");
         lol.innerHTML=jokes[Math.floor(Math.random()*jokes.length)];
 
 }
