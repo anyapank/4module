@@ -1,7 +1,7 @@
 function generate() {
     var jokes = [
         '<img src="images/1a.png">',
-        '<img src="images/2a.png">',
+        '<img src="images/2a1.png">',
         '<img src="images/3a.png">',
         '<img src="images/4a.png">',
         '<img src="images/5a.png">',
