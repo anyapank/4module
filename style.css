@@ -8,22 +8,60 @@ body {
     display: block;
 cursor: pointer;
 align-items: center;
+
 }
 
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 600px;
+    grid-row-gap: 30px;
     }
     
-    .div1 { grid-area: 2 / 2 / 5 / 6; 
-    align-items: center;
-    }
+    .div1 { grid-area: 1 / 5 / 5 / 8; }
+    .div2 { grid-area: 5 / 6 / 6 / 7; }
+    
 
-    .div2 { grid-area: 6 / 3 / 7 / 5; 
-    
+.btn {
+    display: block;
+    border: solid 2px #000000;
+    font-size: 30px;
+    line-height: 1;
+    padding: 5px 100px;
+    border-radius: 5px;
+    background: #38a53d00;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s linear;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: normal;
 }
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(82, 82, 82);
+  }
+  img {  
+    max-width: 100%;  
+    height: auto;  
+    align-items: center;
+    } 
+    
+    .underline {
+        text-decoration: none;
+        border-bottom: 2px solid;
+        }
+        
+        a:link.underline {
+        border-color: #b2ccf0;
+        }
+        
+        a:visited.underline {
+        border-color: #e0b2e0;
+        }
